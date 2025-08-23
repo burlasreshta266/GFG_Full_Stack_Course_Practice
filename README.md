@@ -1,0 +1,2 @@
+# GeeksForGeeks Full stack Web development
+These are all the mini projects I did as a part of the GeeksForGeeks Full stack Web development course. They are all given as practice exercises on the course.
