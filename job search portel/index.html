@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Job search Portal</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-success text-center py-3 text-white">
+        <h1>Job Search Portal</h1>
+    </header>
+
+
+    <!-- Navigation -->
+    <nav class="bg-secondary">
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link text-white m-1">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-white m-1">Jobs</a></li>
+            <li class="nav-item"><a class="nav-link text-white m-1">Companies</a></li>
+            <li class="nav-item"><a class="nav-link text-white m-1">About us</a></li>
+            <li class="nav-item"><a class="nav-link text-white m-1">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container mt-5 mb-5">
+
+        <!-- Find -->
+        <div class="container-fluid text-center">
+            <h1>Find your Dream Job</h1>
+            <div class="row m-4">
+                <div class="col-md-3 col-sm-12 m-1">
+                    <input type="text" placeholder="Keywords" class="form-control">
+                </div>
+                <div class="col-md-3 col-sm-12 m-1">
+                    <input type="text" placeholder="Location" class="form-control">
+                </div>
+                <div class="col-md-3 col-sm-12 m-1">
+                    <input type="text" placeholder="Company" class="form-control">
+                </div>
+                <div class="col-md-2 col-sm-12 m-1">
+                    <input type="button" value="Search" class="form-control bg-primary text-white">
+                </div>
+            </div>     
+        </div>
+
+        <!-- job search -->
+        <div class="container-fluid mt-3">
+            <h1 class="text-center">Latest Job Listings</h1>
+            <div class="row mt-3 justify-content-center">
+
+                <div class="col-lg-5 col-sm-12 col-md-5 mb-2">
+                    <div class="border p-3">
+                        <h2>Web Developer</h2>
+                        <p>Company: GeeksforGeeks</p>
+                        <p>Location: India</p>
+                        <p>Description: Good job</p>
+                        <input type="button" value="Apply Now" class="bg-success text-white">
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-sm-12 col-md-5 mb-2">
+                    <div class="border p-3">
+                        <h2>Graphic Designer</h2>
+                        <p>Company: GeeksforGeeks</p>
+                        <p>Location: India</p>
+                        <p>Description: Good job</p>
+                        <input type="button" value="Apply Now" class="bg-success text-white">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+     <footer class="bg-dark p-3 text-center text-white">
+        <p>2023 Job Search Portal</p>
+     </footer>
+</body>
+</html>
